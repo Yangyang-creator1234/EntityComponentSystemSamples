@@ -140,9 +140,9 @@ Material:
     m_Floats:
     - Vector1_2b27bdfdb65f40b3bbd106395116c08e: 2
     - Vector1_3b44777b43364ca68a0a221cc322b652: 0.848
-    - Vector1_613a6726b8ab4f9ab7314943d91bc344: 10
+    - Vector1_613a6726b8ab4f9ab7314943d91bc344: 0
     - Vector1_69db3926cfb44e73a5be98ada8013b3c: 0.3
-    - Vector1_7932143712d4466bb0127e93a7311228: 0
+    - Vector1_7932143712d4466bb0127e93a7311228: 0.73
     - Vector1_ddb141b7d6f34b07baac880f6fd87e70: 0.636
     - _AlphaClip: 0
     - _Amount: 2

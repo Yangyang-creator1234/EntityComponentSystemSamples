@@ -155,8 +155,8 @@ MonoBehaviour:
   Prefabs:
   - {fileID: 4642500021594395439, guid: bc7303e862846fb4ab27249bc76f969e, type: 3}
   - {fileID: 4642500021594395439, guid: 805feecf56b71d84c8311662fe47683c, type: 3}
-  SpawnCount: 10
-  SpawnsPerSecond: 1
+  SpawnCount: 100
+  SpawnsPerSecond: 5
 --- !u!4 &1837297455
 Transform:
   m_ObjectHideFlags: 0
