@@ -17,6 +17,8 @@ namespace Yangyang
         public float SecondOrderParamz;
         public float SecondOrderParamr;
 
+        public AnimationCurve SecondOrderCurve;
+
         public void Convert(Entity entity, EntityManager dstManager, GameObjectConversionSystem conversionSystem)
         {
             if (IsPlayer)

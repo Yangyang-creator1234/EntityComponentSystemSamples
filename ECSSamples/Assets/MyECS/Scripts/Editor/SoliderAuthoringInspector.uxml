@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <ui:Label text="属性编辑" display-tooltip-when-elided="true" name="Desc" />
+    <uie:PropertyField name="IsPlayer" binding-path="IsPlayer" label="是否玩家" />
+    <uie:PropertyField name="MoveSpeedPerSeconds" binding-path="MoveSpeedPerSeconds" label="移动速度" />
+    <uie:PropertyField name="RotationDegreePerSeconds" binding-path="RotationDegreePerSeconds" label="旋转速度" tooltip="角度/秒" />
+    <uie:PropertyField name="SecondOrderParamf" binding-path="SecondOrderParamf" label="二阶系统参数f" />
+    <uie:PropertyField name="SecondOrderParamz" binding-path="SecondOrderParamz" label="二阶系统参数z" />
+    <uie:PropertyField name="SecondOrderParamr" binding-path="SecondOrderParamr" label="二阶系统参数r" />
+    <uie:CurveField label="二阶系统函数曲线" name="SecondOrderCurve" binding-path="SecondOrderCurve" />
+</ui:UXML>
