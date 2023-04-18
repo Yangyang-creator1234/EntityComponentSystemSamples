@@ -9,5 +9,6 @@ namespace Yangyang
     public struct UserInputComponent : IComponentData
     {
         public float2 MoveDir;
+        public float3 HitPoint;
     }
 }

@@ -28,8 +28,8 @@ namespace Yangyang
             }
             dstManager.AddComponentData(entity, new SoliderMoveSpeed { Value = MoveSpeedPerSeconds });
             dstManager.AddComponentData(entity, new SoliderRotationSpeed { Value = math.radians(RotationDegreePerSeconds) }); ;
-            dstManager.SetComponentData(entity, new Translation { Value = transform.position });
-
+            //dstManager.SetComponentData(entity, new Translation { Value = transform.position });
+          
             if (SecondOrderParamf > 0f)
             {
                 var div = math.PI * SecondOrderParamf;
